@@ -1,0 +1,7 @@
+.next
+node_modules
+pnpm-lock.yaml
+sanity/sanity.types.ts
+sanity/schema.json
+seed/demo-content.ndjson
+seed/images
