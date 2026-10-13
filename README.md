@@ -1,6 +1,10 @@
 # NexSanity
 
+![NexSanity, a Next.js and Sanity template for SaaS and studio websites](template-cover.png)
+
 An open-source Next.js and Sanity template for SaaS and studio websites. Every page is built and edited in Sanity Studio, with Visual Editing, live preview and a page builder of twelve blocks.
+
+**Live demo:** [nexsanity-os.vercel.app](https://nexsanity-os.vercel.app)
 
 - **Next.js 16** (App Router, Server Components) and **Sanity 6** with the Studio embedded at `/studio`
 - **Page builder** with Hero (curved GSAP carousel), Feature columns, Bento grid, Results, Logo cloud, Stats, Testimonials, Pricing, FAQ, CTA, Rich text and Contact form
@@ -68,6 +72,7 @@ Every variable is parsed with Zod in `lib/env/public-env.ts` or `lib/env/server-
 | `pnpm build`                  | Production build                                                                             |
 | `pnpm lint` / `pnpm lint:fix` | ESLint                                                                                       |
 | `pnpm typecheck`              | TypeScript                                                                                   |
+| `pnpm validate`               | Check the repository against the Sanity template requirements                                |
 | `pnpm format`                 | Prettier                                                                                     |
 | `pnpm typegen`                | Extract the schema and regenerate `sanity/sanity.types.ts`                                   |
 | `pnpm seed:generate`          | Rebuild `seed/demo-content.ndjson` from `seed/generate-demo-content.ts`                      |

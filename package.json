@@ -18,6 +18,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc --noEmit",
+    "validate": "sanity-template-validate",
     "format": "prettier --write .",
     "typegen": "sanity schema extract --path sanity/schema.json --enforce-required-fields --force && sanity typegen generate",
     "seed:generate": "node seed/generate-demo-content.ts",
@@ -49,6 +50,7 @@
   },
   "devDependencies": {
     "@next/env": "16.4.0",
+    "@sanity/template-validator": "^3.1.1",
     "@tailwindcss/postcss": "^4.3.3",
     "@types/node": "^24.19.1",
     "@types/react": "^19.3.0",
