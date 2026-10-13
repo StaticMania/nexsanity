@@ -1,6 +1,6 @@
 # NexSanity
 
-![NexSanity, a Next.js and Sanity template for SaaS and studio websites](template-cover.png)
+![NexSanity, a Next.js and Sanity template for SaaS and studio websites](https://raw.githubusercontent.com/StaticMania/nexsanity/main/template-cover.png)
 
 An open-source Next.js and Sanity template for SaaS and studio websites. Every page is built and edited in Sanity Studio, with Visual Editing, live preview and a page builder of twelve blocks.
 
