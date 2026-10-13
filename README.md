@@ -16,7 +16,7 @@ An open-source Next.js and Sanity template for SaaS and studio websites. Every p
 pnpm is required. npm and yarn are blocked at install time.
 
 ```bash
-pnpm create sanity@latest --template <github-user>/nexsanity --package-manager pnpm
+pnpm create sanity@latest --template StaticMania/nexsanity --package-manager pnpm
 ```
 
 Or clone the repository and connect it to a Sanity project yourself:
